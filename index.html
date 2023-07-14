@@ -13,19 +13,21 @@
             <nav>
                 <img src="image/abc.png" class ="logo">
                 <ul id="sidemenu">
-                    <!-- <li><a href="#">Home</a></li>
-                    <li><a href="#">About me</a></li>
-                    <li><a href="#">Interest</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>  -->
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#container">Skills</a></li>
+                    <li><a href="#services">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li> 
                     <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i> 
                 </ul>
                 <i class="fa-solid fa-bars" onclick="openmenu()"></i>           
             </nav>
+          
             <div class="header-text">
             <p>Software Engineer</p>
             <h1>Hey there!  I'm <span> Vishal</span></h1>
          </div>
+
     </div>
 </div>
  <!-- ------about section--------------- -->
@@ -39,15 +41,15 @@
                 <h1 class="sub-title">About Me</h1>
                 <p> Hey there! this is Vishal Shahi born and brought up in Gorakhpur. Currently pursuing Bachelor of Technology in Information Technology from GL Bajaj Institute of Technology and Management. My primarily skill is to code with C and C++. Besides programming I'm Web Development Enthusiast who loves to built websites using frontend languages . I have also gained an experience with Nvidia by working on real-life projects.</p>
                    <div class="tab-titles">
-                    <p class ="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class ="tab-links active-link" onclick="opentab('skills')">Education</p>
                     <p class ="tab-links" onclick="opentab('experience')">Experience</p>
                     <p class ="tab-links" onclick="opentab('education')">Coursework</p>
                    </div>
                    <div class="tab-contents active-tab id="skills">
                     <ul>
-                        <li><span>C/C++</span><br> Proficient in C++ and have good command over Data Structure.</li>
-                         <li><span>Web Development</span><br>Have a good knowledge of Frontend languages like HTML , CSS and JAVASCRIPT</li>
-                        <li><span>Database</span><br>Good command over DBMS and SQL.</li>
+                        <li><span>High School</span><br> St. Josephs's School <br>(2017)</li>
+                         <li><span>Intermediate</span><br>Mount Litera Zee School <br>(2019)</li>
+                        <li><span>College</span><br>GL Bajaj Institute of Technology and Management <br>(2020-2024)</li>
                     </ul>
                    </div>
                    <div class="tab-contents" id="experience">
@@ -76,7 +78,67 @@
     </div>
 </div>
 
+
+
+<!-- -------------portfolio------------- -->
+<div class="portfolio">
+    <div id="container">
+        <h1 class="sub-title">Skills</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="image/cpp.jpg" >
+                <div class="layer">
+                    <h2>Programming Languages:</h2>
+                    <br>
+                    <ul>
+                   <li> <p> C++</p></li>
+                   <br>
+                   <li><p>DSA</p></li>
+                   <br>
+                   <li><p> OOPS</p></li> 
+                    <br>
+                    <li><p>Python(Basic)</p></li>
+                    </ul>
+                    <!-- <a href="#"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/frontend.jpeg" >
+                <div class="layer">
+                    <h2>Web Development</h2>
+                    <br>
+                    <ul>
+                 <li>  <p> HTML</p></li> 
+                 <br>
+                 <li>  <p> CSS</p></li> 
+                 <br>
+                 <li>  <p> JavaScript</p></li> 
+                 <br>
+                 
+                 <!-- <a href="#"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                    </ul>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/dbms.png" >
+                <div class="layer">
+                    <h2>Database</h2>
+                    <br>
+                    <ul>
+                        <li><p>DBMS</p></li>
+                        <br>
+                        <li><p>SQL</p></li>
+                    </ul>
+                     <!-- <a href="#"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                </div>
+            </div>
+        </div>
+        <a href="#"class="btn">Know more</a>
+    </div>
+</div>
+
 <!-- -------------services---------------- -->
+
 <div id="services" >
     <div class = "container">
         <h1 class = "sub-title"> My Projects </h1>
@@ -87,14 +149,17 @@
                 <p> Designed and developed a responsive web application replicating the
                     key features and user interface of the popular e-commerce platform
                     Amazon, using HTML and CSS..</p>
+                    <br>
+                    <br>
+                    <br>
             <a href="https://vishalshahi01.github.io/Amazon_clone/">Click Here</a> 
             </div> 
            <div>
             <i class="fa-solid fa-code"></i>
                 <h2> PPE Violation Detection</h2>
-                <p> The purpose of the project is to determine whether the given input frame is safe or unsafe. If the person in the frame is found unsafe will recieve mail.
-                    a</p>
-            <a href="#">Learn more</a> 
+                <p> The purpose of the project is to determine whether the given input frame is safe or unsafe. If the person in the frame is found unsafe will receive  mail.
+                    </p>
+            <a href="https://github.com/vishalshahi01/PPE-Violation-Detection"><span>Click here</span></a> 
             </div> 
             <div>
                 <i class="fa-solid fa-code"></i>
@@ -103,45 +168,11 @@
                     streams.
                     The purpose of the project is to recognize the person through his face
                     present in the dataset.</p>
-            <a href="#">Learn more</a> 
+            <a href="https://github.com/vishalshahi01/Multiple-Face-Recognition">Click here</a> 
             </div> 
         </div>
     </div>
 </div>
-<!-- -------------portfolio------------- -->
-<!-- <div class="portfolio">
-    <div id="container">
-        <h1 class="sub-title">My Work</h1>
-        <div class="work-list">
-            <div class="work">
-                <img src="image/ds_img.png" >
-                <div class="layer">
-                    <h3>Social Media App</h3>
-                    <p> The app let u connect the world</p>
-                     <a href="#"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                </div>
-            </div>
-            <div class="work">
-                <img src="image/web_img.png" >
-                <div class="layer">
-                    <h3>Music App</h3>
-                    <p> The app let u connect the world</p>
-                     <a href="#"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                </div>
-            </div>
-            <div class="work">
-                <img src="image/dev2.jpg" >
-                <div class="layer">
-                    <h3>Shopping  App</h3>
-                    <p> The app let u connect the world</p>
-                     <a href="#"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                </div>
-            </div>
-        </div>
-        <a href="#"class="btn">See More</a>
-    </div>
-</div> -->
-
 <!-- -------------contact------------- -->
 
 <div id="contact">
