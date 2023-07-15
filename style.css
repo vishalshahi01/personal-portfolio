@@ -15,6 +15,7 @@ body{
     background-size: cover;
     background-position: center;    
 }
+
 .container{
     padding: 10px 10%;
 }
@@ -42,11 +43,12 @@ nav ul li a::after{
     content: '';
     width: 0;
     height: 3px;
-    background: #ff004f ;
+    background: #e20586 ;
     position: absolute;
     left: 0;
     bottom: -6px;
-    transition: 0.5s;
+    transition: 0.7s;
+    
 }
 nav ul li a:hover::after{
     width: 100%;
@@ -60,8 +62,15 @@ nav ul li a:hover::after{
     margin-top: 20px;
 }
 .header-text h1 span{
+    margin-left: 700px;
+    margin-top: 200px;
     color: #ff004f;
+    
 }
+.hero-section-heading {
+    margin-left: 710px;
+}
+
 /* ----------about section------------- */
 #about{
     padding: 80px 0;
@@ -243,6 +252,9 @@ nav ul li a:hover::after{
     background: #ff004f;
 }
 
+ .btn2{
+    background-color: #080808;
+}
 /* -------contact------ */
 .contact-left{
      flex-basis: 35%;    
